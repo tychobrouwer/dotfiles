@@ -12,7 +12,7 @@ git clone https://github.com/tychobrouwer/everblush-gtk.git "$HOME/Projects/ever
 ln -s "$HOME/Projects/everblush-gtk" "$HOME/.local/share/themes/everblush-gtk"
 
 git clone https://github.com/tychobrouwer/papirus-icon-theme.git "$HOME/Projects/papirus-icon-theme"
-ln -s "$HOME/Projects/papirus-icon-theme/Papirus-Dark $HOME/.local/share/icons/papirus"
+ln -s "$HOME/Projects/papirus-icon-theme/Papirus-Dark" "$HOME/.local/share/icons/papirus"
 ./dolphin-folder-color.sh -c cyan -d "$HOME/.local/share/icons/papirus"
 
 # Reset to master branch
