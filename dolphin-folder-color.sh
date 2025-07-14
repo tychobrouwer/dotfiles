@@ -183,7 +183,7 @@ configureIcon() {
 }
 
 # process the options
-while getopts c:s:i:ro opt ; do
+while getopts c:s:i:d:ro opt ; do
     case "$opt" in
         c) setColor      "$OPTARG" ;;
         s) setSymbol     "$OPTARG" ;;
