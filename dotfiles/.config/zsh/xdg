@@ -23,3 +23,6 @@ export PYLINTRC=$XDG_CONFIG_HOME/pylint/pylintrc
 export ANSIBLE_HOME=$XDG_CONFIG_HOME/ansible
 export ANSIBLE_CONFIG=$ANSIBLE_HOME/ansible.cfg
 export ANSIBLE_GALAXY_CACHE_DIR=$XDG_CACHE_HOME/ansible/ANSIBLE_GALAXY_CACHE_DIR
+
+# Set up gnupg configuration paths
+export GNUPGHOME=$XDG_CONFIG_HOME/gnupg
