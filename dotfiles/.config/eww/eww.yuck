@@ -195,7 +195,7 @@
   "hyprctl activeworkspace | awk -F '[()]' '{print $2; exit}' | xargs")
 
 (defpoll time :interval "10s"
-"date '+%d %b %Y  %H:%M'")
+"date '+%d %b  %H:%M'")
 
 (defvar workspaces "[1, 2, 3, 4, 5, 6, 7]")
 
