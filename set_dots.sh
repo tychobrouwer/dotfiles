@@ -3,7 +3,7 @@
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 
 # Create directories needed for dotfiles
-cd "$SCRIPT_DIR" || exit
+cd "$SCRIPT_DIR/dotfiles" || exit
 find . -type d -exec mkdir -p $HOME/{} \;
 # Create links to dotfiles
 stow --adopt --restow -t "$HOME" .
