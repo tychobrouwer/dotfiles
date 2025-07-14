@@ -8,20 +8,20 @@
 // ------------------------------------------------ //
 
 .bar {
-    background-color: #141b1e;
-    color: #dadada;
+    background-color: #181926;
+    color: #cad3f5;
     padding: 5px;
 }
 
 .bar-item {
-    background-color: #232a2d;
+    background-color: #24273a;
     border-radius: 6px;
     padding: 3px 8px;
     margin-right: 10px;
 }
 
 .right .mutedmic {
-    color: #141b1e;
+    color: #181926;
     padding-left: 9px;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .right .volume0 {
-    color: #141b1e;
+    color: #181926;
     padding-right: 3px;
 }
 
@@ -55,12 +55,12 @@
 }
 
 .metric scale trough highlight {
-    background-color: #c47fd5;
+    background-color: #c6a0f6;
     border-radius: 10px;
 }
 
 .right .batery25 {
-    color: #e57474;
+    color: #ed8796;
 }
 
 .batery25-container scale trough highlight {
@@ -69,7 +69,7 @@
 
 .metric scale trough {
     all: unset;
-    background-color: #141b1e;
+    background-color: #181926;
     border-radius: 50px;
     min-height: 8px;
     min-width: 50px;
@@ -81,12 +81,12 @@
 }
 
 .workspaces button:hover {
-    color: #141b1e;
+    color: #181926;
 }
 
 .workspaces button.activeworkspace,
 .workspaces button.activeworkspace:hover {
-    color: #dadada;
+    color: #cad3f5;
 }
 
 // ------------------------------------------------ //
@@ -94,7 +94,7 @@
 // ------------------------------------------------ //
 
 .music_window {
-    background-color: #141b1e;
+    background-color: #181926;
     border-radius: 6px;
     padding: 12px;
 }
@@ -111,14 +111,14 @@
 .btn_prev,
 .btn_next,
 .btn_play {
-    color: #dadada;
+    color: #cad3f5;
     font-size: 16px;
     font-weight: normal;
 }
 
 .btn_play,
 .song {
-    color: #dadada;
+    color: #cad3f5;
     font-size: 24px;
     font-weight: normal;
 }
@@ -129,13 +129,13 @@
 
 .music_bar scale trough highlight {
     all: unset;
-    background-color: #dadada;
+    background-color: #cad3f5;
     border-radius: 8px;
 }
 
 .music_bar scale trough {
     all: unset;
-    background-color: #232a2d;
+    background-color: #24273a;
     border-radius: 8px;
     min-height: 12px;
     min-width: 200px;
@@ -150,29 +150,29 @@
 .button-reboot,
 .button-logout,
 .button-lock {
-    color: #dadada;
+    color: #cad3f5;
     font-weight: normal;
     margin-right: 8px;
 }
 
 .button-off {
-    color: #e57474;
+    color: #ed8796;
 }
 
 .button-suspend {
-    color: #8ccf7e;
+    color: #a6da95;
 }
 
 .button-reboot {
-    color: #e5c76b
+    color: #eed49f
 }
 
 .button-logout {
-    color: #c47fd5;
+    color: #c6a0f6;
 }
 
 .button-lock {
-    color: #67b0e8;
+    color: #8aadf4;
 }
 
 
@@ -181,11 +181,11 @@
 // ------------------------------------------------ //
 
 .confirm-box {
-    background-color: #141b1e;
+    background-color: #181926;
     border-radius: 6px;
     padding: 12px;
     font-size: 16px;
-    color: #dadada;
+    color: #cad3f5;
     font-weight: normal;
 }
 
@@ -196,12 +196,12 @@
 .confirm-box button {
     border-radius: 6px;
     padding: 3px 8px;
-    background-color: #232a2d;
+    background-color: #24273a;
 }
 
 .confirm-box button:focus {
-    background-color: #c47fd5;
-    color: #232a2d;
+    background-color: #b7bdf8;
+    color: #24273a;
 }
 
 .confirm-box .confirm-yes {

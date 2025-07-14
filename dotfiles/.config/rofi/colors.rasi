@@ -10,10 +10,10 @@
     /**
      * Everblush
      **/
-    background: #0A1114;
-    background-alt: #404749;
+    background: #141b1e;
+    background-alt: #232a2d;
     background: #dadada;
-    selected: #404749;
+    selected: #232a2d;
     active: #3b4244;
     urgent: #e57474;
 
