@@ -1,0 +1,26 @@
+export XDG_DESKTOP_DIR="$HOME/Desktop"
+export XDG_DOWNLOAD_DIR="$HOME/Downloads"
+export XDG_TEMPLATES_DIR="$HOME/Documents"
+export XDG_PUBLICSHARE_DIR="$HOME/Documents"
+export XDG_DOCUMENTS_DIR="$HOME/Documents"
+export XDG_MUSIC_DIR="$HOME/Documents"
+export XDG_PICTURES_DIR="$HOME/Pictures"
+export XDG_VIDEOS_DIR="$HOME/Pictures"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_RUNTIME_DIR="/tmp"
+
+# Set up npm configuration paths
+export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/config
+export NPM_CONFIG_CACHE=$XDG_CACHE_HOME/npm
+export NPM_CONFIG_TMP=$XDG_RUNTIME_DIR/npm
+
+# Set up pip configuration paths
+export PYLINTRC=$XDG_CONFIG_HOME/pylint/pylintrc
+
+# Set up ansible configuration paths
+export ANSIBLE_HOME=$XDG_CONFIG_HOME/ansible
+export ANSIBLE_CONFIG=$ANSIBLE_HOME/ansible.cfg
+export ANSIBLE_GALAXY_CACHE_DIR=$XDG_CACHE_HOME/ansible/ANSIBLE_GALAXY_CACHE_DIR
+

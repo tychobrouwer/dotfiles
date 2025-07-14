@@ -28,6 +28,7 @@ source $HOME/.config/zsh/variables
 source $HOME/.config/zsh/functions
 source $HOME/.config/zsh/aliases
 source $HOME/.config/zsh/keybinds
+source $HOME/.config/zsh/xdg
 
 # Load zsh-autosuggestions
 source $HOME/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

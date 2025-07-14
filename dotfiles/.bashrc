@@ -7,6 +7,7 @@
 
 source $HOME/.config/zsh/variables
 source $HOME/.config/zsh/aliases
+source $HOME/.config/zsh/xdg
 
 export CARGO_HOME=$HOME/.local/share/cargo
 export RUSTUP_HOME=$HOME/.local/share/rustup
