@@ -18,12 +18,14 @@
     urgent: #e57474;
 
     /**
-     * Catppuccin
+     */**
+     * * Catppuccin
+     * **/
+     *background:     #181926ff;
+     *background-alt: #24273Aff;
+     *foreground:     #CAD3F5ff;
+     *selected:       #24273Aff;
+     *active:         #B7BDF8ff;
+     *urgent:         #ED8796ff;
      **/
-    background:     #181926ff;
-    background-alt: #24273Aff;
-    foreground:     #CAD3F5ff;
-    selected:       #24273Aff;
-    active:         #B7BDF8ff;
-    urgent:         #ED8796ff;
 }
