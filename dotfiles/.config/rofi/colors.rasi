@@ -18,9 +18,7 @@
     urgent: #e57474;
 
     /**
-     */**
-     * * Catppuccin
-     * **/
+     * Catppuccin
      *background:     #181926ff;
      *background-alt: #24273Aff;
      *foreground:     #CAD3F5ff;
