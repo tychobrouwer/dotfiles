@@ -75,4 +75,3 @@ echo "Press Ctrl+C to stop."
 
 wait $MATLAB_PID
 echo "MATLAB exited normally."
-
