@@ -1,0 +1,9 @@
+menubar {padding: 2px;}
+menubar menuitem {padding: 2px 5px}
+
+window.thunar treeview {padding: 1px}
+window.thunar treeview:selected {border-radius: 0em}
+window.thunar .sidebar {padding: 2px 5px}
+
+window.thunar toolbar entry {margin: 2px 1em}
+window.thunar toolbar * {padding: 0px 3px; margin: 0px 1px}
