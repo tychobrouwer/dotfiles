@@ -23,6 +23,7 @@
       : volume < 75 ? "volume75"
       : "volume100"
       }
+      :visible true
       :label {volume == "" ? "" : volume == 0 ? "": volume < 25 ? "" : volume < 50 ? "" : volume < 75 ? "" : ""}
       :value volume
       :onchange "wpctl set-volume @DEFAULT_AUDIO_SINK@ {}% --limit 1.0"
@@ -31,14 +32,14 @@
     (metric
       :parent_class "bar-item"
       :class {
-      batery == "" ? "${batery_status} no-battery"
       : batery == 0 ? "${batery_status} batery0"
       : batery < 25 ? "${batery_status} batery25"
       : batery < 50 ? "${batery_status} batery50"
       : batery < 75 ? "${batery_status} batery75"
       : "${batery_status} batery100"
       }
-      :label {batery == "" ? "" : batery_status == "Charging" ? "" : batery == 0 ? "": batery < 25 ? "" : batery < 50 ? "" : batery < 75 ? "" : ""}
+      :visible {batery != ""}
+      :label {baxtery == "" ? "" : batery_status == "Charging" ? "" : batery == 0 ? "": batery < 25 ? "" : batery < 50 ? "" : batery < 75 ? "" : ""}
       :value batery
       :onchange ""
       :onclick ""
@@ -123,10 +124,11 @@
     "   ${round(EWW_DISK["/"].used / 1000000000, 1)}GB"))
 
 ;; Metric Template
-(defwidget metric [parent_class class label value onchange onclick]
+(defwidget metric [parent_class class visible label value onchange onclick]
   (box :orientation "h"
     :class "metric ${class}-container ${parent_class}"
     :space-evenly false
+    :visible visible
     (eventbox
       :onclick onclick
       (box :class class label))
