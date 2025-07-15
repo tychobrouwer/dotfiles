@@ -1,7 +1,7 @@
 #!/bin/sh
 
-if [[ ! -d "/sys/class/power_supply" ]]; then
-  echo 0
+if [[ ! -d "/sys/class/power_supply/BAT*" ]]; then
+  echo ""
 else
   FILES=$(ls /sys/class/power_supply/BAT*/capacity)
   
