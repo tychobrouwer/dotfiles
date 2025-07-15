@@ -59,8 +59,10 @@
     border-radius: 10px;
 }
 
-.right .no-batery {
-    display: none;
+.right .no-battery {
+    width: 0px;
+    padding: 0px;
+    visibility: hidden;
 }
 
 .right .batery25 {

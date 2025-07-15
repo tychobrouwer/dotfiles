@@ -31,7 +31,7 @@
     (metric
       :parent_class "bar-item"
       :class {
-      batery == "" ? "${batery_status} no-batery"
+      batery == "" ? "${batery_status} no-battery"
       : batery == 0 ? "${batery_status} batery0"
       : batery < 25 ? "${batery_status} batery25"
       : batery < 50 ? "${batery_status} batery50"
