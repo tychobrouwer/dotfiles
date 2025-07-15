@@ -55,7 +55,7 @@ get_cover() {
 }
 
 summary() {
-	echo "$(get_status) $(get_song) - $(get_artist)"
+	echo "$(get_status)  $(get_song) - $(get_artist)"
 }
 
 ## Execute accordingly
