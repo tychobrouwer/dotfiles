@@ -32,15 +32,15 @@
     (metric
       :parent_class "bar-item"
       :class {
-      batery == 0 ? "${batery_status} batery0"
-      : batery < 25 ? "${batery_status} batery25"
-      : batery < 50 ? "${batery_status} batery50"
-      : batery < 75 ? "${batery_status} batery75"
-      : "${batery_status} batery100"
+      battery == 0 ? "${battery_status} battery0"
+      : battery < 25 ? "${battery_status} battery25"
+      : battery < 50 ? "${battery_status} battery50"
+      : battery < 75 ? "${battery_status} battery75"
+      : "${battery_status} battery100"
       }
-      :visible {batery != ""}
-      :label {baxtery == "" ? "" : batery_status == "Charging" ? "" : batery == 0 ? "": batery < 25 ? "" : batery < 50 ? "" : batery < 75 ? "" : ""}
-      :value batery
+      :visible {battery != ""}
+      :label {battery == "" ? "" : battery_status == "Charging" ? "" : battery == 0 ? "": battery < 25 ? "" : battery < 50 ? "" : battery < 75 ? "" : ""}
+      :value battery
       :onchange ""
       :onclick ""
     )
@@ -185,10 +185,10 @@
 (defpoll volume :interval "0.1s"
 "scripts/get-volume.sh")
 
-(defpoll batery :interval "30"
-"scripts/get-batery.sh")
-(defpoll batery_status :interval "10"
-"scripts/get-batery-status.sh")
+(defpoll battery :interval "30"
+"scripts/get-battery.sh")
+(defpoll battery_status :interval "10"
+"scripts/get-battery-status.sh")
 
 (defpoll mutedmic :interval "0.1s"
 "scripts/get-mute.sh")
