@@ -21,3 +21,5 @@ inode/directory=org.gnome.FileRoller.desktop;thunar.desktop;
 application/pdf=brave-browser.desktop;
 image/svg+xml=brave-browser.desktop;org.inkscape.Inkscape.desktop;
 application/pkix-cert=vim.desktop;
+text/x-matlab=code.desktop;
+image/png=gimp.desktop;
